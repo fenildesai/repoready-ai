@@ -1,0 +1,12 @@
+You are performing READ-ONLY onboarding discovery for the repository in the current working directory.
+Inspect relevant existing repository files (README, .sln/.slnx, .csproj, entry points, services, tests, pipelines). Do not edit files, run builds, deploy, or access secrets.
+Produce a concise but useful Markdown draft with these headings:
+1. Verified application purpose and business capabilities (only when supported by code/docs)
+2. Frameworks, solutions, entry points
+3. Component and dependency map
+4. One representative feature/request flow
+5. Build/test/onboarding steps (label unverified commands)
+6. Recommended project-specific additions to .github/copilot-instructions.md
+7. Unknowns and confidence levels
+Cite exact repository file paths for each significant factual claim. If you cannot inspect the repo, say so clearly.
+Do not output secrets or sensitive data.
